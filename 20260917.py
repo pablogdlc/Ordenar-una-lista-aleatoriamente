@@ -8,5 +8,5 @@ def insertion_sort(lista):
         lista[j + 1] = clave
     return lista
 
-LISTA = [12, 11, 13, 5, 6]
+LISTA = [12, 11, 13, 5, 99]
 print( insertion_sort(LISTA))
